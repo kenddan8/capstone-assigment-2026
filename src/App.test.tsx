@@ -104,6 +104,7 @@ test('reveals an outfit modal after Dress Me is activated', async () => {
 
   expect(dressButton.hasAttribute('disabled')).toBe(true);
   expect(await screen.findByRole('dialog', { name: 'Dress for the day ahead.' })).not.toBeNull();
+  expect(screen.getByRole('heading', { name: 'Weather or Not' })).not.toBeNull();
   expect(screen.getByRole('button', { name: 'Close results' })).not.toBeNull();
   expect(screen.getByLabelText('Weather change note')).not.toBeNull();
   expect(screen.getByLabelText('Generated outfit recommendation')).not.toBeNull();

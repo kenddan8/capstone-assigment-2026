@@ -1,10 +1,10 @@
-# Forecast Fit Product Requirements Document
+# Weather or Not Product Requirements Document
 
 ## Document Overview
 
 | Field | Value |
 | --- | --- |
-| Product | Forecast Fit |
+| Product | Weather or Not |
 | Document type | Product Requirements Document (PRD) |
 | Product stage | Minimum viable product |
 | Primary market | Atlanta, Georgia metropolitan area |
@@ -13,7 +13,7 @@
 
 ## Product Summary
 
-Forecast Fit is a weather-aware outfit recommendation experience designed primarily for Black women ages 25-35 in metro Atlanta. It combines current Atlanta weather with contemporary, practical styling guidance and curated shopping links.
+Weather or Not is a weather-aware outfit recommendation experience designed primarily for Black women ages 25-35 in metro Atlanta. It combines current Atlanta weather with contemporary, practical styling guidance and curated shopping links.
 
 The product intentionally keeps the initial experience focused. A user sees the current weather and local time, selects `Dress Me`, and receives a text-only outfit recommendation in an accessible modal without leaving or reloading the page.
 
@@ -21,7 +21,7 @@ The product intentionally keeps the initial experience focused. A user sees the 
 
 Weather applications explain conditions but do not typically translate those conditions into relevant outfit decisions. Fashion recommendation experiences may ignore local climate, practical weather changes, inclusive sizing, cultural relevance, or the varied contexts in which users dress.
 
-Forecast Fit addresses this gap by turning current Atlanta weather into useful outfit guidance while avoiding assumptions about a user's body, hair, budget, profession, lifestyle, or personal aesthetic.
+Weather or Not addresses this gap by turning current Atlanta weather into useful outfit guidance while avoiding assumptions about a user's body, hair, budget, profession, lifestyle, or personal aesthetic.
 
 ## Product Vision
 
@@ -89,7 +89,7 @@ Outfits are communicated through typography, item details, metadata, icons, spac
 
 ## Core User Journey
 
-1. The user opens Forecast Fit.
+1. The user opens Weather or Not.
 2. The application retrieves current Atlanta weather.
 3. The home screen shows Atlanta time, date, temperature, precipitation probability, humidity, and wind speed.
 4. The `Dress Me` button remains disabled until the initial weather request succeeds.
@@ -104,7 +104,7 @@ Outfits are communicated through typography, item details, metadata, icons, spac
 
 ### PR-1: Application Structure
 
-- Forecast Fit must operate as a TypeScript single-page application.
+- Weather or Not must operate as a TypeScript single-page application.
 - The application must have a start-screen state and a modal-results state.
 - State changes must not trigger route navigation or a full-page reload.
 

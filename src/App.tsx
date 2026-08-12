@@ -334,7 +334,7 @@ function App() {
                   <WbSunnyRoundedIcon fontSize="small" />
                 </Box>
                 <Typography variant="h6" sx={{ fontWeight: 800 }}>
-                  Forecast Fit
+                  Weather or Not
                 </Typography>
                 <Chip label="ATL" size="small" sx={{ bgcolor: '#42421E', color: 'white' }} />
               </Stack>

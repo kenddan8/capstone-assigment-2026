@@ -4,7 +4,7 @@
 
 | Field | Value |
 | --- | --- |
-| Product | Forecast Fit |
+| Product | Weather or Not |
 | Status | Draft |
 | Version | 1.0 |
 | Market | Atlanta, Georgia metropolitan area |
@@ -13,7 +13,7 @@
 
 ## Product Summary
 
-Forecast Fit is a single-page web application that turns current Atlanta weather into practical, contemporary outfit recommendations. The experience gives users the weather information most relevant to getting dressed, then provides a text-only styling recommendation with curated shopping links without requiring navigation, an account, or a page reload.
+Weather or Not is a single-page web application that turns current Atlanta weather into practical, contemporary outfit recommendations. The experience gives users the weather information most relevant to getting dressed, then provides a text-only styling recommendation with curated shopping links without requiring navigation, an account, or a page reload.
 
 The product is designed primarily for Black women ages 25-35 in metro Atlanta. Relevance is expressed through varied outfit contexts, inclusive retailer selection, Atlanta-aware weather guidance, and respectful language rather than stereotypes or assumptions about body type, hair, budget, profession, or personal style.
 
@@ -65,11 +65,11 @@ A Black woman ages 25-35 who lives in or around metro Atlanta and wants a quick,
 
 ## Value Proposition
 
-Forecast Fit reduces the effort between checking the weather and choosing an outfit. It combines a concise Atlanta forecast, culturally respectful styling guidance, and curated shopping destinations in one low-friction experience.
+Weather or Not reduces the effort between checking the weather and choosing an outfit. It combines a concise Atlanta forecast, culturally respectful styling guidance, and curated shopping destinations in one low-friction experience.
 
 ## Core User Journey
 
-1. The user opens Forecast Fit.
+1. The user opens Weather or Not.
 2. The application retrieves current Atlanta weather.
 3. The home screen displays Atlanta time and date, with temperature as the focal point and precipitation, humidity, and wind as supporting metrics.
 4. The `Dress Me` button becomes available after the weather request succeeds.
